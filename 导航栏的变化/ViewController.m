@@ -27,7 +27,8 @@
     UIView *view = [UIView new];
     view.str = @"11111111111";
     [view eat];
-    NSLog(@"==========%@",view.str);
+    //NSLog(@"==========%@",view.str);
+    //1111111111111111
     tab.delegate = self;
     tab.dataSource = self;
     [self.view addSubview:tab];
